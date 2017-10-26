@@ -32,19 +32,36 @@
 
       <div id='headers'>
         <!-- Title and subtitles!-->
+        <h1>Guessing Game!</h1>
+        <h2>Guess a number between 1 & 100</h2>
       </div>
 
       <div id='main'>
         <div id='input-parent'>
           <!-- Player's guess input, and submit button -->
+          <form>
+            <input type='number'></input>
+            <button>Guess!</button>
+          </form>
         </div>
 
         <div id='guesses'>
           <!-- unordered list of guesses -->
+          <ul>
+            <li id='first-guess'></li>
+            <li id='second-guess'></li>
+            <li id='third-guess'></li>
+            <li id='fourth-guess'></li>
+            <li id='fifth-guess'></li>
+          </ul>
         </div>
 
         <div id='menu-btns'>
           <!-- reset and hint buttons -->
+          <form>
+            <button id='reset-button'>Reset!</button>
+            <button id='hint-button'>Give me a hint!</button>
+          </form>
         </div>
       </div>
     </div>
