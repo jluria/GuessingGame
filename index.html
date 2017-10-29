@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Guessing Game</title>
+    <title class='center'>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
     <link rel='stylesheet' type='text/css' href='style.css'>
@@ -11,22 +11,22 @@
 
     <div id='app'>
 
-      <div id='headers'>
+      <div id='headers' class='center'>
         <!-- Title and subtitles!-->
         <h1>Guessing Game!</h1>
         <h2>Guess a number between 1 & 100</h2>
       </div>
 
       <div id='main'>
-        <div id='input-parent'>
+        <div id='input-parent' class='center'>
           <!-- Player's guess input, and submit button -->
           <input id='player-input' placeholder='#' maxlength='3' autofocus=autofocus type='number'></input>
           <button id='submit'>Guess!</button>
         </div>
 
-        <div id='guesses'>
+        <div id='guesses' class='center'>
           <!-- unordered list of guesses -->
-          <ul>
+          <ul class='guess'>
             <li></li>
             <li></li>
             <li></li>
@@ -35,7 +35,7 @@
           </ul>
         </div>
 
-        <div id='menu-btns'>
+        <div id='menu-btns' class='center'>
           <!-- reset and hint buttons -->
           <form>
             <button id='reset-button'>Reset!</button>
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div id='footer'>
+    <div id='footer' class='center'>
       <div>
         <div class=''>
           <img src='fa-logo@2x.png'></img>
